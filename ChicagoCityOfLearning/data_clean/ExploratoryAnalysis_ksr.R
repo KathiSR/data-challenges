@@ -2,8 +2,6 @@
 library(ggplot2)
 library(plyr)
 library(geosphere)
-## set the working directory
-setwd('~/Documents/data-challenges/ChicagoCityOfLearning/data_clean')
 
 ######### read in the after-school program data #########
 data <- read.csv('schedule_program_export.csv', header = TRUE, stringsAsFactors = FALSE)
